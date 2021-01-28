@@ -71,7 +71,7 @@ public class FacadeApplication {
         public AddressService addressServicePostgre() {
             return new AddressServiceImplPostgre();
         }
-        
+
         public AddressService addressServiceMongo() {
             return new AddressServiceImplMongo();
         }
